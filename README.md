@@ -6,7 +6,7 @@ The app automatically detects whether your input is **normal text** or **Morse c
 ---
 
 ## Check it Out
- **[Click here to try the app](https://morsecodeencoderdecoder-v7fhevet7ipvxuhodk45l3.streamlit.app/)**
+ **[Click here to try the app](https://morsecode.streamlit.app/)**
 
 ---
 
