@@ -10,7 +10,7 @@ st.title("Morse Code Auto Encoder-Decoder")
 tab1, tab2 = st.tabs(["✍️ Text Input", "🖼️ Image Input"])
 
 with tab1:
-    user_input = st.text_area("Enter Text or Morse Code")
+    user_input = st.text_area("Enter Text or Morse Code (In single line)")
     if st.button("Process Text"):
         if mc.is_morse(user_input.strip()):
             decoded_text = mc.decode_text(user_input.strip())
@@ -44,3 +44,4 @@ with tab2:
 
             except Exception as e:
                 st.error(f"Error while processing image: {e}")
+
